@@ -27,16 +27,6 @@
     </dependency>
   </dependencies>
 
-    <distributionManagement>
-   <snapshotRepository>
-      <id>nexus-snapshots</id>
-      <url>http://192.168.29.158/:8081/repository/maven-snapshots</url>
-   </snapshotRepository>
-   <repository>
-      <id>nexus-releases</id>
-      <url>http://192.168.29.158/repository/maven-releases</url>
-   </repository>
-  </distributionManagement>
   
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
